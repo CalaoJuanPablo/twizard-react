@@ -1,0 +1,21 @@
+.Navigation {
+  width: 100%
+}
+
+.Navigation ul {
+  margin: 0;
+  padding: 0;
+  display: grid;
+}
+
+.Navigation ul li {
+  padding: 20px 0;
+  list-style: none;
+  text-align: center;
+}
+
+@media (min-width: 900px) {
+  .Navigation ul li.new-twiz {
+    display: none;
+  }
+}
